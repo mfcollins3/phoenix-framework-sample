@@ -107,7 +107,6 @@ module web 'br/public:avm/ptn/azd/container-app-upsert:0.1.2' = {
     identityName: webIdentity.name
     userAssignedIdentityResourceId: webIdentity.outputs.resourceId
     identityPrincipalId: webIdentity.outputs.principalId
-    targetPort: 4000
     location: location
     tags: union(tags, { 'azd-service-name': 'web' })
   }
