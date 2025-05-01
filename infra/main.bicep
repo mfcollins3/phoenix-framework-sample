@@ -102,6 +102,10 @@ module web 'br/public:avm/ptn/azd/container-app-upsert:0.1.2' = {
         name: 'SECRET_KEY_BASE'
         value: 'eBLbmGlctHX9gKLVdI+SS165KAKfGIf7wpfFBJU7yrxjWy0xAyvxJDI/DfZ29TSw'
       }
+      {
+        name: 'PORT'
+        value: '80'
+      }
     ]
     identityType: 'UserAssigned'
     identityName: webIdentity.name
